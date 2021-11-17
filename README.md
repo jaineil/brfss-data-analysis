@@ -35,10 +35,10 @@ Step-2) We split data into train & test set.
 
 Step-3) We compare multiple classification algorithms best suited for the problem. 
   - Logistic Regression algorithm
+  - Decision Tree algorithm
+  - Random Forest algorithm
   - XGBoost algorithm
   - Gaussian Naive Bayes algorithm
-  - Random Forest algorithm
-  - Decision Tree algorithm
 
 Step-4) We compute the accuracy, recall & F-1 score for each algorithm's prediction. Ideally, we want the algorithm with highest accuracy and recall = 1.
 
