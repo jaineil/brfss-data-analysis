@@ -11,11 +11,9 @@
 ---------------------------------
 
 ### Disease of interest:
-(1) Cardiovascular
+(1) Lung issues
 
-(2) Diabetes
-
-(3) Mental Health Disorders
+(2) Heart issues
 
 ---------------------------------
 
@@ -37,8 +35,8 @@ Step-3) We compare multiple classification algorithms best suited for the proble
   - Logistic Regression algorithm
   - Decision Tree algorithm
   - Random Forest algorithm
-  - XGBoost algorithm
   - Gaussian Naive Bayes algorithm
+  - XGBoost algorithm
 
 Step-4) We compute the accuracy, recall & F-1 score for each algorithm's prediction. Ideally, we want the algorithm with highest accuracy and recall = 1.
 
