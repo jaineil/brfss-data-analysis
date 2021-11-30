@@ -11,9 +11,7 @@
 ---------------------------------
 
 ### Disease of interest:
-(1) Lung issues
-
-(2) Heart issues
+Lung Diseases - Asthama and Bronchitis
 
 ---------------------------------
 
@@ -27,7 +25,7 @@ Step-1) We apply different statistical and data-dependent dimensionality reducti
   - We find all missing values in the matrix. Think of what to replace them with (-1 ?). Need to replace them before dimensionality reduction.
   - We perform Correlation-based Dimensionality Reduction.
   - Based on correlation between columns, we if two columns have a correlation > 90%, we consider the first column and drop the second one.
-  - Finally, go through leftover columns and remove columns which do not belong to target disease by manually selection.
+  - Finally, go through leftover columns and remove columns which do not belong to target disease by manually selection. This is achieved algorithmically with `XGBoost` for computing important features.
   
 Step-2) We split data into train & test set.
 
